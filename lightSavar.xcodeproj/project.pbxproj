@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4860E4562116D0CC00F99ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860E4552116D0CC00F99ED8 /* AppDelegate.swift */; };
+		4860E4582116D0CC00F99ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860E4572116D0CC00F99ED8 /* ViewController.swift */; };
+		4860E45B2116D0CC00F99ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4860E4592116D0CC00F99ED8 /* Main.storyboard */; };
+		4860E45D2116D0CE00F99ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4860E45C2116D0CE00F99ED8 /* Assets.xcassets */; };
+		4860E4602116D0CE00F99ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4860E45E2116D0CE00F99ED8 /* LaunchScreen.storyboard */; };
+		4860E4692116D42600F99ED8 /* light_saber1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4860E4672116D42600F99ED8 /* light_saber1.mp3 */; };
+		4860E46A2116D42600F99ED8 /* light_saber3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4860E4682116D42600F99ED8 /* light_saber3.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4860E4522116D0CC00F99ED8 /* lightSavar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightSavar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4860E4552116D0CC00F99ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4860E4572116D0CC00F99ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4860E45A2116D0CC00F99ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4860E45C2116D0CE00F99ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4860E45F2116D0CE00F99ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4860E4612116D0CE00F99ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4860E4672116D42600F99ED8 /* light_saber1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light_saber1.mp3; path = "../../../Downloads/sparta-lightsaber-master 2/LightSaberApp/sound/light_saber1.mp3"; sourceTree = "<group>"; };
+		4860E4682116D42600F99ED8 /* light_saber3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light_saber3.mp3; path = "../../../Downloads/sparta-lightsaber-master 2/LightSaberApp/sound/light_saber3.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4860E44F2116D0CC00F99ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4860E4492116D0CC00F99ED8 = {
+			isa = PBXGroup;
+			children = (
+				4860E4542116D0CC00F99ED8 /* lightSavar */,
+				4860E4532116D0CC00F99ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4860E4532116D0CC00F99ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4860E4522116D0CC00F99ED8 /* lightSavar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4860E4542116D0CC00F99ED8 /* lightSavar */ = {
+			isa = PBXGroup;
+			children = (
+				4860E4552116D0CC00F99ED8 /* AppDelegate.swift */,
+				4860E4572116D0CC00F99ED8 /* ViewController.swift */,
+				4860E4592116D0CC00F99ED8 /* Main.storyboard */,
+				4860E45C2116D0CE00F99ED8 /* Assets.xcassets */,
+				4860E45E2116D0CE00F99ED8 /* LaunchScreen.storyboard */,
+				4860E4612116D0CE00F99ED8 /* Info.plist */,
+				4860E4672116D42600F99ED8 /* light_saber1.mp3 */,
+				4860E4682116D42600F99ED8 /* light_saber3.mp3 */,
+			);
+			path = lightSavar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4860E4512116D0CC00F99ED8 /* lightSavar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4860E4642116D0CE00F99ED8 /* Build configuration list for PBXNativeTarget "lightSavar" */;
+			buildPhases = (
+				4860E44E2116D0CC00F99ED8 /* Sources */,
+				4860E44F2116D0CC00F99ED8 /* Frameworks */,
+				4860E4502116D0CC00F99ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightSavar;
+			productName = lightSavar;
+			productReference = 4860E4522116D0CC00F99ED8 /* lightSavar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4860E44A2116D0CC00F99ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jp.app.game;
+				TargetAttributes = {
+					4860E4512116D0CC00F99ED8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4860E44D2116D0CC00F99ED8 /* Build configuration list for PBXProject "lightSavar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4860E4492116D0CC00F99ED8;
+			productRefGroup = 4860E4532116D0CC00F99ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4860E4512116D0CC00F99ED8 /* lightSavar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4860E4502116D0CC00F99ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4860E4602116D0CE00F99ED8 /* LaunchScreen.storyboard in Resources */,
+				4860E46A2116D42600F99ED8 /* light_saber3.mp3 in Resources */,
+				4860E45D2116D0CE00F99ED8 /* Assets.xcassets in Resources */,
+				4860E45B2116D0CC00F99ED8 /* Main.storyboard in Resources */,
+				4860E4692116D42600F99ED8 /* light_saber1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4860E44E2116D0CC00F99ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4860E4582116D0CC00F99ED8 /* ViewController.swift in Sources */,
+				4860E4562116D0CC00F99ED8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4860E4592116D0CC00F99ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4860E45A2116D0CC00F99ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4860E45E2116D0CE00F99ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4860E45F2116D0CE00F99ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4860E4622116D0CE00F99ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4860E4632116D0CE00F99ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4860E4652116D0CE00F99ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7L5A28UQ;
+				INFOPLIST_FILE = lightSavar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lightSavar.sena.lightSavar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4860E4662116D0CE00F99ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7L5A28UQ;
+				INFOPLIST_FILE = lightSavar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lightSavar.sena.lightSavar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4860E44D2116D0CC00F99ED8 /* Build configuration list for PBXProject "lightSavar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4860E4622116D0CE00F99ED8 /* Debug */,
+				4860E4632116D0CE00F99ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4860E4642116D0CE00F99ED8 /* Build configuration list for PBXNativeTarget "lightSavar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4860E4652116D0CE00F99ED8 /* Debug */,
+				4860E4662116D0CE00F99ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4860E44A2116D0CC00F99ED8 /* Project object */;
+}
